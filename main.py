@@ -80,7 +80,7 @@ def Search():
 
         try:
             choice = int(choice)
-            if(choice - 1 >= 0 and choice - 1 <= 21):
+            if(choice - 1 >= 0 and choice - 1 < 20):
                 break
             else:
                 continue
